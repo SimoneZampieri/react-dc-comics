@@ -10,7 +10,7 @@ body{
 
 .container{
   margin: 0 auto;
-  width: 1200px;
+  max-width: 1200px;
 }
 
 /*Header*/
@@ -71,4 +71,30 @@ img{
 .blue-banner span{
   color: white;
   align-self: center;
+}
+
+/* FOOTER */
+
+.background-heroes{
+  background-image: url('/footer-bg.jpg');
+}
+
+.gray-banner{
+  background-color: #303030;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.gray-banner button{
+  background-color: #303030;
+  border: 2px solid #0282f9;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.gray-banner span{
+  color: #0282f9;
+  font-size: 1.5rem;
+  font-weight: bold;
 }

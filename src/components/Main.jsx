@@ -1,6 +1,6 @@
 const Main = () => {
     return(
-        <main className="container">
+        <main>
             <div className="content-placeholder">
                 <p>--Content Goes Here--</p>
             </div>
