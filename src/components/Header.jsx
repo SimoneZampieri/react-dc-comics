@@ -1,9 +1,7 @@
-import Logo from '../assets/img/dc-logo.png'
-
 const Header = () => {
     return(
         <header>
-            <Logo />
+            <img src="/img/dc-logo.png" alt="" />
             <nav>
                 <ul>
                     <li><a href="#">Characters</a></li>
