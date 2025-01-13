@@ -1,4 +1,4 @@
-import Logo from ''
+import Logo from '../assets/img/dc-logo.png'
 
 const Header = () => {
     return(
