@@ -1,7 +1,9 @@
 const Header = () => {
     return(
-        <header>
-            <img src="/img/dc-logo.png" alt="DC" />
+        <header className="container">
+            <figure>
+                <img src="/img/dc-logo.png" alt="DC" />
+            </figure>
             <nav>
                 <ul>
                     <li><a href="#">CHARACTERS</a></li>

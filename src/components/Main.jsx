@@ -1,29 +1,29 @@
 const Main = () => {
     return(
-        <main>
+        <main className="container">
             <div className="content-placeholder">
-                --Content Goes Here--
+                <p>--Content Goes Here--</p>
             </div>
             <div className="blue-banner">
                 <div>
                     <img src="/img/buy-comics-digital-comics.png" alt="" />
-                    <p>DIGITAL COMICS</p>
+                    <span>DIGITAL COMICS</span>
                 </div>
                 <div>
                     <img src="/img/buy-comics-merchandise.png" alt="" />
-                    <p>DC MERCHANDISE</p>
+                    <span>DC MERCHANDISE</span>
                 </div>
                 <div>
                     <img src="/img/buy-comics-subscriptions.png" alt="" />
-                    <p>SUBSCRIPTION</p>
+                    <span>SUBSCRIPTION</span>
                 </div>
                 <div>
                     <img src="/img/buy-comics-shop-locator.png" alt="" />
-                    <p>COMIC SHOP LOCATOR</p>
+                    <span>COMIC SHOP LOCATOR</span>
                 </div>
                 <div>
                     <img src="/img/buy-dc-power-visa.svg" alt="" />
-                    <p>DC POWER VISA</p>
+                    <span>DC POWER VISA</span>
                 </div>
             </div>
         </main>
