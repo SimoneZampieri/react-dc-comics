@@ -83,6 +83,7 @@ img{
   background-color: #303030;
   display: flex;
   justify-content: space-evenly;
+  padding: 30px;
 }
 
 .gray-banner button{
@@ -90,11 +91,16 @@ img{
   border: 2px solid #0282f9;
   color: white;
   font-size: 15px;
-  padding: 10px;
+  padding: 5px;
 }
 
 .gray-banner span{
   color: #0282f9;
   font-size: 1.5rem;
   font-weight: bold;
+  align-items: center;
+}
+
+.gray-banner img{
+  padding: 10px;
 }
