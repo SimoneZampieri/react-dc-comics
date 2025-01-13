@@ -74,9 +74,21 @@ img{
 }
 
 /* FOOTER */
-
 .background-heroes{
-  background-image: url('/footer-bg.jpg');
+  background-image: url(../img/footer-bg.jpg);
+}
+.menucont ul li{
+  list-style: none;
+}
+
+.menucont p{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.menucont a{
+  color: grey;
 }
 
 .gray-banner{
