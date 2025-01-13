@@ -74,14 +74,20 @@ img{
 }
 
 /* FOOTER */
+
+.footerCont{
+  display: flex;
+}
+
 .background-heroes{
   background-image: url(../img/footer-bg.jpg);
 }
+
 .menucont ul li{
   list-style: none;
 }
 
-.menucont p{
+.menucont span{
   font-size: 20px;
   color: white;
   font-weight: bold;
@@ -89,6 +95,10 @@ img{
 
 .menucont a{
   color: grey;
+}
+
+.imageCont{
+
 }
 
 .gray-banner{
