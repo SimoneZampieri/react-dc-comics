@@ -10,7 +10,7 @@ body{
 
 .container{
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 /*Header*/
@@ -20,7 +20,7 @@ header{
   justify-content: space-between;
 }
 
-ul{
+header ul{
   display: flex;
   list-style: none;
   justify-content: right;
@@ -138,7 +138,6 @@ div.second_list_footer{
   margin-bottom: -50px;
 }
 
-
 section.footer_contacts{
   background-color: #303030;
 }
@@ -149,6 +148,7 @@ div.contacts{
   align-items: center;
   padding: 20px 0px;
 }
+
 div.contacts .btn{
   background-color: #303030;
   border: 2px solid #0182F9;
