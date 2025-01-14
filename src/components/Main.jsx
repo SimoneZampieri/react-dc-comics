@@ -1,32 +1,36 @@
 const Main = () => {
     return(
         <main>
-            <div className="content-placeholder">
-                <p>--Content Goes Here--</p>
+         <section className="content">
+            <div className="container">
+               <span>--Content goes here--</span>
             </div>
-            <div className="blue-banner">
-                <div>
-                    <img src="/img/buy-comics-digital-comics.png" alt="" />
-                    <span>DIGITAL COMICS</span>
-                </div>
-                <div>
-                    <img src="/img/buy-comics-merchandise.png" alt="" />
-                    <span>DC MERCHANDISE</span>
-                </div>
-                <div>
-                    <img src="/img/buy-comics-subscriptions.png" alt="" />
-                    <span>SUBSCRIPTION</span>
-                </div>
-                <div>
-                    <img src="/img/buy-comics-shop-locator.png" alt="" />
-                    <span>COMIC SHOP LOCATOR</span>
-                </div>
-                <div>
-                    <img src="/img/buy-dc-power-visa.svg" alt="" />
-                    <span>DC POWER VISA</span>
-                </div>
+         </section>
+         <section className="dc_info">
+            <div className="row container">
+               <div className="col">
+                  <img src="/img/buy-comics-digital-comics.png" alt="" />
+                  <p>DIGITAL COMICS</p>
+               </div>
+               <div className="col">
+                  <img src="/img/buy-comics-merchandise.png" alt="" />
+                  <p>DC MERCHANDISE</p>
+               </div>
+               <div className="col">
+                  <img src="/img/buy-comics-subscriptions.png" alt="" />
+                  <p>SUBSCRIPTION</p>
+               </div>
+               <div className="col">
+                  <img src="/img/buy-comics-shop-locator.png" alt="" />
+                  <p>COMIC SHOP LOCATOR</p>
+               </div>
+               <div className="col">
+                  <img src="/img/buy-dc-power-visa.svg" alt="" />
+                  <p>DC POWER VISA</p>
+               </div>
             </div>
-        </main>
+         </section>
+      </main>
     )
 };
 
