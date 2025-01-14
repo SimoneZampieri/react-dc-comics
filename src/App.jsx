@@ -51,6 +51,7 @@ const App = () => {
         footerShop={footerShop}
         footerDC={footerDC}
         footerSites={footerSites}
+        footerComics={links}
       />
     </>
   );
