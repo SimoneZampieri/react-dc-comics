@@ -1,14 +1,13 @@
-import { comics } from "../data/comics";
-import ComicCard from "./ComiCard";
+import comicsCardsContent from "../data/comics";
+import comicsLine from "./comicsLine/comicsLine.jsx";
 
 const Main = (props) => {
-  const ComicCard = props.comics;
   return (
     <main>
       <section className="content">
         <div className="container">
-          {comics.map((comic) => (
-            <ComicCard key={comic.id} title={comic.title} thumb={comic.thumb} />
+          {comicsCardsContent.map((card) => (
+            <comicsLine key={card.id} cardData={card} />
           ))}
         </div>
       </section>
