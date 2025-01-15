@@ -2,7 +2,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import ComicCard from "./components/ComiCard";
-import { comics } from "./assets/comics";
+import { comics } from "./data/comics";
 
 const links = [
   { id: 1, name: "CHARACTERS", url: "/" },

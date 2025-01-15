@@ -1,4 +1,4 @@
-import { comics } from "../assets/comics";
+import { comics } from "../data/comics";
 import ComicCard from "./ComiCard";
 
 const Main = () => {
