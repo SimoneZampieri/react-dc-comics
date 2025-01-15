@@ -1,7 +1,8 @@
-import { comics } from "/comics";
+import { comics } from "../data/comics";
 import ComicCard from "./ComiCard";
 
-const Main = () => {
+const Main = (props) => {
+  const ComicCard = props.comics;
   return (
     <main>
       <section className="content">
