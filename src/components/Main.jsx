@@ -7,9 +7,13 @@ const Main = (props) => {
       <section className="content">
         <div className="jumbotron"></div>
         <div className="container">
-          {comicsCardsContent.map((card) => (
-            <ComicsLine key={card.id} cardData={card} />
-          ))}
+          <div className="card-container">
+            <div className="card-row">
+              {comicsCardsContent.map((card) => (
+                <ComicsLine key={card.id} cardData={card} />
+              ))}
+            </div>
+          </div>
         </div>
       </section>
       <section className="dc_info">
