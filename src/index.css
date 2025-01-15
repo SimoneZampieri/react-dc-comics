@@ -22,34 +22,30 @@ a{
 header{
   display: flex;
   justify-content: space-between;
-}
 
-header ul{
-  display: flex;
-  list-style: none;
-  justify-content: right;
-  padding: 20px;
-}
+  ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    padding: 20px;
 
-header ul li{
-  align-self: center;
-}
+    li{
+      align-self: center;
 
-header ul li a{
-  color: #000;
-  text-decoration: none;
-  margin: 15px;
-  font-weight: bold;
-}
+      a{
+        color: #000;
+        text-decoration: none;
+        margin: 15px;
+        font-weight: bold;
+      }
+    }
+  }
 
-li:hover{
-  border-bottom: #0282f9;
-}
-
-header img{
-  max-width: 80px;
-  padding: 10px;
-}
+  img{
+    max-width: 80px;
+    padding: 10px;
+  }
+} 
 
 /* MAIN */
 
