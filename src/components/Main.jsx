@@ -5,7 +5,9 @@ const Main = (props) => {
   return (
     <main>
       <section className="content">
-        <div className="jumbotron"></div>
+        <div className="jumbotron">
+          <img src="../img/jumbotron.jpg" alt="" />
+        </div>
         <div className="container">
           <div className="card-container">
             <div className="card-row">
