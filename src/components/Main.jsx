@@ -1,13 +1,14 @@
 import comicsCardsContent from "../data/comics";
-import comicsLine from "./comicsLine/comicsLine.jsx";
+import ComicsLine from "./comicsLine/ComicsLine.jsx";
 
 const Main = (props) => {
   return (
     <main>
       <section className="content">
+        <div className="jumbotron"></div>
         <div className="container">
           {comicsCardsContent.map((card) => (
-            <comicsLine key={card.id} cardData={card} />
+            <ComicsLine key={card.id} cardData={card} />
           ))}
         </div>
       </section>

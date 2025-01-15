@@ -11,6 +11,8 @@ body{
 .container{
   margin: 0 auto;
   max-width: 1200px;
+  display: flex;
+  justify-content: center;
 }
 
 a{
@@ -54,6 +56,11 @@ section.content{
   padding: 50px 0px;
 }
 
+.jumbotron{
+  background-image: url('../img/jumbotron.jpg');
+  height: 400px;
+}
+
 .content span{
   color: #fff;
   font-size: 1.5rem;
@@ -81,6 +88,40 @@ div.col img{
 
 div.col p{
   color: #fff;
+}
+
+/* CARD */
+
+.content_cards{
+  padding: 50px 0px;
+}
+.cards_row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card{
+  width: calc(100% / 6);
+  padding: 10px;
+  margin-bottom: 25px;
+
+  .card_img{
+    overflow: hidden;
+    height: 210px;
+    width: 210px;
+
+    img{
+      width: 100%;
+    }
+  }
+
+  .card_title{
+    width: 210px;
+    margin-top: 20px;
+    color: var(--c-white);
+    text-transform: uppercase;
+    text-align: left;
+  }
 }
 
 /* FOOTER */
