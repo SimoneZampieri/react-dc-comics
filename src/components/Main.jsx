@@ -15,6 +15,7 @@ const Main = (props) => {
             </div>
           </div>
         </div>
+        <button>LOAD MORE</button>
       </section>
       <section className="dc_info">
         <div className="row container">
